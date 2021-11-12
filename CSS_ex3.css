@@ -1,9 +1,33 @@
 
+:root{
+    --darkblue: #242583;
+    --eggplant: #553d67
+    --pink: #f64c72;
+    --makeup: #99738e;
+}
+
+body{
+    background-color: var(--eggplant);
+}
+
 *{
     color: black;
-    background-color: grey;
+    background-color: var(--eggplant);
     font-family: Arial;
     font-size: 15px;
+}
+
+label{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+input{
+    color: rgb(140,157,186);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
 }
 
 h1{
@@ -16,8 +40,25 @@ h1{
     color: white;
 }
 
+.box{
+    background-color: pink;
+    border: 2px solid black;
+}
+
 #LastName{
     color: red;
+}
+
+input.box{
+     background-color: red
+
+}
+
+a{
+    color:red;
+}
+
+a:link{
 
 }
 
