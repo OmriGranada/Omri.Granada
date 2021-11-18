@@ -47,6 +47,25 @@ h1{
     border: 2px solid black;
 }
 
+
+    button{
+        height:20%;
+        font-size:50px;
+        color: blue;
+        background-color:black;
+        animation-name: blink;
+        animation-duration: 2s;
+        animation-iteration-count: 10;
+    }
+
+    @keyframes blink {
+        0% {background-color:black;}
+        50% {background-color:white;}
+        100% {background-color:black;}
+
+
+    }
+
 @media only screen and (max-width:600px) {
     body {
        background-color: red;
